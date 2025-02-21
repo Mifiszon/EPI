@@ -1,74 +1,81 @@
-# Eviscerate Persist Intimidate
-## EPI
+Eviscerate Persist Intimidate
 
-To repozytorium zawiera projekt napisany w języku C# na silniku Unity Engine. Jego tematem jest implementacja gry typu Space Invaders (dwuwymiarowej strzelanki). 
+EPI
 
-**W repozytorium znajduje się plik KKMO.exe, który uruchomi aplikację; plik został stworzony przez Inno Setup Compiler**
+This repository contains a project written in C# using the Unity Engine. The project is a Space Invaders-style 2D shooter game.
 
-## Opis
+The repository includes the file KKMO.exe, which launches the application. This file was created using Inno Setup Compiler.
 
-Eviscerate Persist Intimidate to zręcznościowa gra wideo wzorowana na retro klasyku - Space Invaders (Japoński: スペースインベーダー), który został stworzony przez Tomohiro Nishikado i wydany w 1978 roku. 
+Description
 
-To jedna z najstarszych strzelanek, której celem jest pokonanie fal kosmitów działem laserowym, aby zdobyć jak najwięcej punktów.
+Eviscerate Persist Intimidate is an arcade video game inspired by the retro classic - Space Invaders (Japanese: スペースインベーダー), originally created by Tomohiro Nishikado and released in 1978.
 
-![SpaceInvaders](https://upload.wikimedia.org/wikipedia/en/2/20/SpaceInvaders-Gameplay.gif)
+It is one of the earliest shooter games, where the goal is to defeat waves of alien invaders using a laser cannon to score as many points as possible.
 
-## Rozgrywka
 
-### Cel
 
-Zadaniem gracza jest pokonanie pięciu rzędów jedenastu najeźdców (3 różych rodzajów). 
+Gameplay
 
-Fale kosmitów zbliżają się do dolnej części ekranu odbijając się poziomo od bocznych krawędzi mapy.
+Objective
 
-### Sterowanie
+The player's task is to defeat five rows of eleven invaders (three different types).
 
-Gracz kieruje statkiem z działem laserowym, za pomocą strzałek, przesuwając je poziomo po dolnej części ekranu i strzelając do atakujących kosmitów. 
+The alien waves move toward the bottom of the screen, bouncing horizontally off the screen's edges.
 
-**Ruch w lewo - lewa strzałka/A ; Ruch w prawo - prawa strzałka/D ; Strzał - spacja**
+Controls
 
-### Punktacja
+The player controls a spaceship with a laser cannon, moving it horizontally at the bottom of the screen and shooting at the attacking aliens.
 
-Gracz pokonuje kosmitów i liczona jest każda sekunda przeżyta na mapie. 
+Move Left – Left Arrow / A
 
-Im więcej kosmitów zostaje pokonanych tym szybciej się poruszają.
+Move Right – Right Arrow / D
 
-Czas liczony jest od 0.
+Shoot – Spacebar
 
-### Życia 
+Scoring
 
-**Gracz ma 1 życie.**
+The player eliminates aliens, and every second survived on the map is counted.
 
-Gracz traci życie w momencie:
+The more aliens are defeated, the faster they move.
 
-- oberwania pociskiem
-- zniszczenia statku przez fale kosmitów
+Time starts at 0.
 
-Po każdej utracie życia plansza ulega resetowi.
+Lives
 
-### Finał
+The player has only 1 life.
 
-Gra kończy się w momencie:
- 
-- wyeliminowania wszystkich kosmitów
-- strącenia Statku-Matki
+A life is lost when:
 
-## Screeny 
+Hit by an enemy projectile
 
-**Menu Start**<br></br>
-![MenuStart](https://github.com/EPI2023/ProjektWDP/blob/main/menu.png)
+The spaceship is destroyed by alien waves
 
-**Gameplay**<br></br>
-![Gameplay](https://github.com/EPI2023/ProjektWDP/blob/main/gameplay.png)
+After losing a life, the game resets.
 
-**Ending Screen**<br></br>
-![EndingScreen](https://github.com/EPI2023/ProjektWDP/blob/main/wygrana.png)
+Ending
 
-## Źródła
+The game ends when:
 
-[1] [Wikipedia - Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders)
+All aliens are eliminated
 
-**Autorzy: Kosma Kierek / Michał Ogiba**<br></br>
-**Silnik: Unity Engine**<br></br>
-**Język: C#**<br></br>
-**Hotel: Trivago**
+The Mothership is shot down
+
+Screenshots
+
+Start Menu
+
+
+Gameplay
+
+
+Ending Screen
+
+
+Sources
+
+[1] Wikipedia - Space Invaders
+
+Authors: Kosma Kierek / Michał Ogiba
+Engine: Unity Engine
+Language: C#
+
