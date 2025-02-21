@@ -1,81 +1,79 @@
-Eviscerate Persist Intimidate
+# Eviscerate Persist Intimidate  
+## EPI  
 
-EPI
+This repository contains a project written in **C#** using the **Unity Engine**. It is a **2D arcade shooter** inspired by the classic game **Space Invaders**.  
 
-This repository contains a project written in C# using the Unity Engine. The project is a Space Invaders-style 2D shooter game.
+> **The repository includes the file `KKMO.exe`, which launches the application.**  
+> This file was created using **Inno Setup Compiler**.  
 
-The repository includes the file KKMO.exe, which launches the application. This file was created using Inno Setup Compiler.
+## 📖 Description  
 
-Description
+**Eviscerate Persist Intimidate** is an arcade video game based on the retro classic **Space Invaders** (Japanese: スペースインベーダー), originally created by **Tomohiro Nishikado** and released in **1978**.  
 
-Eviscerate Persist Intimidate is an arcade video game inspired by the retro classic - Space Invaders (Japanese: スペースインベーダー), originally created by Tomohiro Nishikado and released in 1978.
+It is one of the earliest **shoot 'em up** games, where the goal is to defeat waves of alien invaders using a **laser cannon** to earn as many points as possible.  
 
-It is one of the earliest shooter games, where the goal is to defeat waves of alien invaders using a laser cannon to score as many points as possible.
+![Space Invaders](https://upload.wikimedia.org/wikipedia/en/2/20/SpaceInvaders-Gameplay.gif)  
 
+## 🎮 Gameplay  
 
+### 🎯 Objective  
 
-Gameplay
+The player's task is to defeat **five rows of eleven invaders** *(three different types)*.  
 
-Objective
+Waves of aliens move toward the bottom of the screen, bouncing horizontally off the side boundaries of the map.  
 
-The player's task is to defeat five rows of eleven invaders (three different types).
+### 🕹️ Controls  
 
-The alien waves move toward the bottom of the screen, bouncing horizontally off the screen's edges.
+The player controls a **spaceship** equipped with a **laser cannon**. Movement is limited to horizontal navigation at the bottom of the screen, shooting at incoming aliens.  
 
-Controls
+- **⬅ Move Left** – `Left Arrow / A`  
+- **➡ Move Right** – `Right Arrow / D`  
+- **🔫 Shoot** – `Spacebar`  
 
-The player controls a spaceship with a laser cannon, moving it horizontally at the bottom of the screen and shooting at the attacking aliens.
+### 🏆 Scoring  
 
-Move Left – Left Arrow / A
+Points are earned by eliminating **aliens**, and the game also tracks **survival time**.  
 
-Move Right – Right Arrow / D
+> **The longer the player survives and the more aliens are defeated, the faster the remaining enemies move.**  
 
-Shoot – Spacebar
+Time starts at **0**.  
 
-Scoring
+### ❤️ Lives  
 
-The player eliminates aliens, and every second survived on the map is counted.
+**The player has 1 life.**  
 
-The more aliens are defeated, the faster they move.
+A life is lost if:  
+- 🚀 The player is **hit** by an enemy projectile.  
+- 👾 The spaceship is **destroyed** by invading aliens.  
 
-Time starts at 0.
+After losing a life, **the game board resets**.  
 
-Lives
+### 🎬 Game Over  
 
-The player has only 1 life.
+The game ends when:  
+- ✅ **All aliens are eliminated.**  
+- 🛸 **The Mothership is destroyed.**  
 
-A life is lost when:
+## 📸 Screenshots  
 
-Hit by an enemy projectile
+**Start Menu**  
+![MenuStart](https://github.com/EPI2023/ProjektWDP/blob/main/menu.png)  
 
-The spaceship is destroyed by alien waves
+**Gameplay**  
+![Gameplay](https://github.com/EPI2023/ProjektWDP/blob/main/gameplay.png)  
 
-After losing a life, the game resets.
+**Ending Screen**  
+![EndingScreen](https://github.com/EPI2023/ProjektWDP/blob/main/wygrana.png)  
 
-Ending
+## 📚 Sources  
 
-The game ends when:
+[1] [Wikipedia - Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders)  
 
-All aliens are eliminated
+## 👨‍💻 Authors  
 
-The Mothership is shot down
+- **Kosma Kierek**  
+- **Michał Ogiba**  
 
-Screenshots
-
-Start Menu
-
-
-Gameplay
-
-
-Ending Screen
-
-
-Sources
-
-[1] Wikipedia - Space Invaders
-
-Authors: Kosma Kierek / Michał Ogiba
-Engine: Unity Engine
-Language: C#
-
+**🛠️ Engine:** Unity Engine  
+**📌 Language:** C#  
+**🏨 Hotel:** Trivago  
